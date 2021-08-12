@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/adapt.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">	<style>
+		#upbutton {
+		  background: url("/images/up.png") no-repeat top left;
+		  height: 60px;
+		  width: 60px;
+		  bottom: 69px;
+		  right: 4px;
+		  cursor: pointer;
+		  display: none;
+		  position: fixed;
+		  z-index: 999;
+		}
+	  </style>
+
+</head>
+<body background="/bg1.jp">
+	<div class="overlay"></div>
+	<header class="header">
+		<div class="container header__container">
+			
+		<a href="index.html">	<img class="logo1" src="png/Restorantino.png" width="220px" height="220px"  ></a>
+		<nav class="nav header__nav">
+
+			<ul class="nav__list">
+
+				<li class="nav__item">
+					<a href="" class="nav__link nav__link--drop">Меню</a>
+					<ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu">
+						<li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+						<class class="dropdown-submenu__item"><hr>
+							<h3 class="dropdown-submenu__title"> <a href="bar.html" class="dropdown-submenu__list-item">Алкоголь </a></h3><hr><br>
+
+							<h3 class="dropdown-submenu__title">Азиатское меню</h3><br>
+							<ul class="dropdown-submenu__list">
+								<li class="dropdown-submenu__list-item"><a href="rolls.html">Роллы</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Суши</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Гун каш суши</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Запеченные суши</a></li>
+								<li class="dropdown-submenu__list-item"><a href="rolls.html">Запеченные роллы</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Супы</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Салаты</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Горячие закуски</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Основные блюда</a></li>
+							</ul></class>
+						</li>
+						<br>
+						<li class="dropdown-submenu__item">
+							<h3 class="dropdown-submenu__title">Основное меню</h3><br>
+							<ul class="dropdown-submenu__list">
+								<li class="dropdown-submenu__list-item"><a href="">Супы</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Салаты</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Пицца</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Основные блюда</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Горячие закуски</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Гарниры</a></li>
+								<li class="dropdown-submenu__list-item"><a href="">Десерты</a></li>
+							</ul>
+						</li>	
+						
+						<!-- конец меню -->
+						
+						<!-- начало бара  -->
+				 
+						<!-- конец бара -->
+
+					</li>
+					</ul>
+				</li>
+				
+
+					 <li class="nav__item">
+						 <!-- ДОПОЛНИТЕЛЬНО -->
+						<a href="" class="nav__link nav__link--drop">Дополнительно</a>
+						<ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu">
+							<li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+							<class class="dropdown-submenu__item">
+								<ul class="dropdown-submenu__list">
+									<li class="dropdown-submenu__list-item"><a href="">Новости</a></li>
+
+									<li class="dropdown-submenu__list-item"><a href="">Хит продаж</a></li>
+									<li class="dropdown-submenu__list-item"><a href="">Новинки</a></li>
+									<li class="dropdown-submenu__list-item"><a href="">Акции</a></li>
+									<li class="dropdown-submenu__list-item"><a href="delivery.html">Доставка</a></li>
+									<li class="dropdown-submenu__list-item"><a href="toleg.html">Оплатa</li>
+									<li class="dropdown-submenu__list-item"><a href="index.html">Главная</a></li>
+
+								</ul></class>
+					</li> 
+				</ul>
+			</nav>
+			<button class="burger" aria-label="Открыть меню">
+				<span></span>
+			</button>
+		</div>
+        <p class="num1"><b>📞 <a href="tel:+99312941828">  +99312941828</a><br><br>
+	
+            📞   <a href="tel:+99312940595"> +99312940595</a>
+	
+		</b></p><BR>	
+	
+
+				<a cl href="https://goo.gl/maps/6z6pxokKboVpeiYu5">	<img class="gps" src="png/gps.png" width="25px" height="25px">             <b>         Наше местоположение</a>			
+	</header>
+	
+	<!-- <section class="section"> 
+			<div class="flex grid">
+				<div class="col-4">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="card">
+						<img src="png/1.png" alt="">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores, accusantium nam eligendi obcaecati dolorum aperiam totam in a eveniet.</p>
+					</div>
+				</div>-->
+
+                <br>
+               <h1 class="dostawka">Оплата</h1><br>
+                <p class="delivery1">Вы можете оплатить заказ:</p><br>
+                
+              <p class="delivery2"> 1. Наличными курьеру или в пункте выдачи при получении заказа</p>
+               
+
+                <br><br><br><br><br><br><br>
+
+
+	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-git.min.js"></script>
+	<a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+		<img src="png/up.png" alt="Top" border="none" title="Наверх">
+	</a>
+
+	<script>
+		var smoothJumpUp = function() {
+			if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+				window.scrollBy(0,-50);
+				setTimeout(smoothJumpUp, 10);
+			}
+		}
+		
+		window.onscroll = function() {
+		  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+		  if (scrolled > 100) {
+			  document.getElementById('upbutton').style.display = 'block';
+		  } else {
+			  document.getElementById('upbutton').style.display = 'none';
+		  }
+		}
+	</script>
+
+	<!-- ======================================================================================================================== -->
+
+	<footer class="site-footer">
+		<div class="container">
+		  <div class="row">
+
+			 <!-- <div class="col-sm-12 col-md-6"> 
+			  <h6 class="inst"><b>О нас</b></h6><br>
+			  <p class="text-justify">Ресторантино - это ресторан европейской и японской кухни</p>
+			</div>-->
+  
+			<!-- <div class="col-xs-6 col-md-3">
+			  <h6>Categories</h6>
+			  <ul class="footer-links">
+				<li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+				<li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+				<li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+				<li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+				<li><a href="http://scanfcode.com/category/android/">Android</a></li>
+				<li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+			  </ul>
+			</div> -->
+  
+			<div class="col-xs-6 col-md-3">
+			  <ul class="footer-links">
+				<li><a href="Contact.html">Контакты</a></li><br>
+				<li><a href="toleg.html">Оплата</a></li><br>
+				<li><a href="delivery.html">Доставка</a></li><br>
+				<li><a href="https://goo.gl/maps/gAxR833P8uMv7tgu7">Показать на карте</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <hr>
+		</div>
+		<div class="container">
+		  <div class="row">
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<h4 class="socialm"><b>Мы в соц.сетях</b></h4>
+			<p class="inst">	<a href="https://www.instagram.com/restorantino_tm/"><img class="inst" src="png/instagram.svg" width="25px" height="25px"></a></p>
+			</div>
+
+
+			<div class="col-md-8 col-sm-6 col-xs-12">
+			  <p class="copyright-text">Copyright &copy; 2021  | All Rights Reserved by 
+		   <a 		href="https://www.instagram.com/web_turkmenistan/" >WEB_TURKMENISTAN</a>
+			  </p>
+			</div>
+  
+			
+		  </div>
+		</div>
+  </footer></body>
+</html>
